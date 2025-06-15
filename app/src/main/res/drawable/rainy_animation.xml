@@ -1,0 +1,16 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/rainy">
+
+    <target
+        android:name="drop1"
+        android:animation="@animator/drop2" />
+
+    <target
+        android:name="drop2"
+        android:animation="@animator/raindrop" />
+
+    <target
+        android:name="drop3"
+        android:animation="@animator/drop3" />
+
+</animated-vector>

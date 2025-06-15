@@ -1,0 +1,10 @@
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:propertyName="translateX"
+    android:duration="2000"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse"
+    android:valueFrom="50"
+    android:valueTo="-50"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    />

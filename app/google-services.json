@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "157317684694",
+    "firebase_url": "https://fall-mitigation-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fall-mitigation",
+    "storage_bucket": "fall-mitigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157317684694:android:c4f63a61734625979ad877",
+        "android_client_info": {
+          "package_name": "TSX.telkom.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebVYDCSUBfJVdX4_JZZsnp8okqlTm-ME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157317684694:android:9ffbb9ea3f2152979ad877",
+        "android_client_info": {
+          "package_name": "com.example.ta_elektro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebVYDCSUBfJVdX4_JZZsnp8okqlTm-ME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157317684694:android:b6252ff46714ca3c9ad877",
+        "android_client_info": {
+          "package_name": "com.example.ta_elektro.UI"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebVYDCSUBfJVdX4_JZZsnp8okqlTm-ME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+        <!-- Shrink to invisible (halfway point) -->
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="1"
+            android:valueTo="0"
+            android:startOffset="0"
+            android:duration="500"
+            android:interpolator="@android:interpolator/accelerate_decelerate"/>
+
+        <!-- Grow to mirrored (flipped side) -->
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="0"
+            android:valueTo="-1"
+            android:duration="500"
+            android:startOffset="500"
+            android:interpolator="@android:interpolator/accelerate_decelerate"/>
+
+        <!-- Shrink back to invisible -->
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="-1"
+            android:valueTo="0"
+            android:startOffset="1500"
+            android:duration="500"
+            android:interpolator="@android:interpolator/accelerate_decelerate"/>
+
+        <!-- Grow back to original -->
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="0"
+            android:valueTo="1"
+            android:startOffset="2000"
+            android:duration="500"
+            android:interpolator="@android:interpolator/accelerate_decelerate"/>
+</set>
